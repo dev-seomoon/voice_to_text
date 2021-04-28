@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    background-image: linear-gradient(140deg, #f9ceff 0, #e4baff 25%, #cca5f1 50%, #b391e3 75%, #9c7fd7 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background: darkturquoise;
+    border: 1px solid ivory;
+    border-radius: 30px;
+    width: 350px;
+    height: 100px;
+    color: #fff;
+    font-size: 2.0em;
+}
+
+button:hover {
+    color: purple;
+    background:paleturquoise;
+    transition: 0.2s;
+}
