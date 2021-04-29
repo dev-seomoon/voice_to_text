@@ -29,6 +29,7 @@ const showText = (e) => {
 
 const showError = (e) => {
     errorBox.innerText = e.error;
+    errorBox.classList.add("show");
     returnButton.classList.add("show");
 }
 

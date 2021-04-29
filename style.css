@@ -90,11 +90,16 @@ input:focus {
 
 /* error */
 .error {
+    display:none;
     color:salmon;
     font-size: 4.5em;
     font-weight: bold;
     letter-spacing: 0.1em;
     margin-bottom: 100px;
+}
+
+.error.show {
+    display: inline-block;
 }
 
 /* return */
