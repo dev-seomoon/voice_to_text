@@ -4,6 +4,8 @@ Web Speech API를 이용해 음성을 텍스트로 변환해주는 간단한 프
 
 사용해보기 : https://from97.github.io/voice_to_text/  
 
+![voice_to_text](https://user-images.githubusercontent.com/52448114/116550190-66e97680-a931-11eb-8995-d89a6e1f37c0.gif)
+
 ## 도움을 받은 곳
 - [Mozilla Web API - SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
 - [자바스크립트 클립보드 복사 구현하기](https://velog.io/@godori/js-clipboard-copy)
