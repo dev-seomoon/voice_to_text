@@ -13,16 +13,24 @@ body {
 
 button {
     background: darkturquoise;
-    border: 1px solid ivory;
-    border-radius: 30px;
+    border: none;
+    border-radius: 50px;
     width: 350px;
     height: 100px;
     color: #fff;
     font-size: 2.0em;
+    font-weight: bold;
+}
+
+button.listening {
+    color:darkturquoise;
+    box-shadow: 1px 1px 10px ivory;
+    background:#fff;
 }
 
 button:hover {
-    color: purple;
-    background:paleturquoise;
-    transition: 0.2s;
+    color:darkturquoise;
+    box-shadow: 1px 1px 10px ivory;
+    background:#fff;
+    transition: 0.5s;
 }
